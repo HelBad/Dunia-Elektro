@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".InduktorRangkaian">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="match_parent"
+                android:text="Cara Menghitung Nilai Induktor"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:src="@drawable/induktor1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <ImageView
+                android:src="@drawable/induktor2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <ImageView
+                android:src="@drawable/induktor3"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="175dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp" />
+
+            <ImageView
+                android:src="@drawable/induktor4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="340dp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" />
+
+            <ImageView
+                android:src="@drawable/induktor5"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginTop="470dp"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp" />
+
+            <TextView
+                android:id="@+id/linki"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

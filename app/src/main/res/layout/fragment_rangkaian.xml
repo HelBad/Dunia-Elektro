@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".RangkaianFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:text="Contoh Rangkaian Lengkap"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:src="@drawable/rangkaianrlc"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:text="Contoh : Tentukan besar tegangan maksimum agar dihasilkan kuat arus sebesar 2A!" />
+
+    <ImageView
+        android:src="@drawable/rangkaian1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <ImageView
+        android:src="@drawable/rangkaian2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:layout_width="150dp"
+        android:layout_height="140dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Masukkan Nilai dari Resistor (R)"
+        android:layout_marginTop="500dp"/>
+
+    <EditText
+        android:id="@+id/outresistor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="250dp"
+        android:hint="Nilai"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Masukkan Nilai dari Kapasitor (C)"
+        android:layout_marginTop="530dp"/>
+
+    <EditText
+        android:id="@+id/outkapasitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="250dp"
+        android:hint="Nilai"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Masukkan Nilai dari Induktor (L)"
+        android:layout_marginTop="560dp"/>
+
+    <EditText
+        android:id="@+id/outinduktor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="250dp"
+        android:hint="Nilai"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Masukkan Nilai Kuat Arus Listrik"
+        android:layout_marginTop="590dp"/>
+
+    <EditText
+        android:id="@+id/outarus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="575dp"
+        android:layout_marginLeft="250dp"
+        android:hint="Nilai"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="110dp"
+        android:text="HITUNG"
+        android:layout_marginTop="620dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="680dp"/>
+
+    <TextView
+        android:id="@+id/linkrang"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

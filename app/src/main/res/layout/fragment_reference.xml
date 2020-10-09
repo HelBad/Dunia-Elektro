@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".ReferenceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:text="Reference"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="match_parent"
+        android:text="Bird, John. 2013. Electrical Principles and Technology for Engineering. Amsterdam: Elsevier "
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:text="Boylestad, Robert And Louis Nashelsky. 1972. Electronic Devices And Circuit Theory. New Jersey: Mcgraw-Hill Education "
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="155dp"
+        android:layout_height="match_parent"
+        android:text="C R Robertson. 2010. Further Electrical and Electronic Principles Amsterdam: Elsevier "
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="195dp"
+        android:layout_height="match_parent"
+        android:text="Malvino, Albert dan David Bates. 2016. Electronic Principles8th Edition. San Francisco: McGraw-Hill Education "
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="255dp"
+        android:layout_height="match_parent"
+        android:text="Wibawanto, Hari. 2013. Elektronika Dasar. Jakarta: Alex Media Komputindo "
+        android:layout_marginLeft="20dp" />
+
+</FrameLayout>
